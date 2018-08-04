@@ -100,7 +100,7 @@ class AddEducation extends Component {
                 <TextFieldGroup
                   name="from"
                   type="date"
-                  vaue={this.state.from}
+                  value={this.state.from}
                   onChange={this.onChange}
                   error={errors.from}
                 />
@@ -108,7 +108,7 @@ class AddEducation extends Component {
                 <TextFieldGroup
                   name="to"
                   type="date"
-                  vaue={this.state.to}
+                  value={this.state.to}
                   onChange={this.onChange}
                   error={errors.to}
                   disabled={this.state.disabled ? "disabled" : ""}
